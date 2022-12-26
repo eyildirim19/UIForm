@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_FormGiris", "1_FormGiris\1_FormGiris.csproj", "{6A36B32B-F450-4551-8BDA-7F58585D598E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Form", "2_Form\2_Form.csproj", "{2D30CDA7-4C76-42FC-A7D9-85AB0CE57EDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A36B32B-F450-4551-8BDA-7F58585D598E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A36B32B-F450-4551-8BDA-7F58585D598E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A36B32B-F450-4551-8BDA-7F58585D598E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A36B32B-F450-4551-8BDA-7F58585D598E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D30CDA7-4C76-42FC-A7D9-85AB0CE57EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D30CDA7-4C76-42FC-A7D9-85AB0CE57EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D30CDA7-4C76-42FC-A7D9-85AB0CE57EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D30CDA7-4C76-42FC-A7D9-85AB0CE57EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33BEAE0D-2412-4836-AACE-A6E229E239C9}
+	EndGlobalSection
+EndGlobal
