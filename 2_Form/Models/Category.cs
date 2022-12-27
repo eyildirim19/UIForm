@@ -14,4 +14,10 @@ public partial class Category
     public byte[]? Picture { get; set; }
 
     public virtual ICollection<Product> Products { get; } = new List<Product>();
+
+
+    public override string ToString()
+    {
+        return CategoryName;
+    }
 }
