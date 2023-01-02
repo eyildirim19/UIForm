@@ -1,0 +1,34 @@
+﻿<Window x:Class="_4_WpfForm_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_4_WpfForm_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <StackPanel>
+        <TextBlock FontSize="50" HorizontalAlignment="Center" Margin="0 30"> Layout Yapısı</TextBlock>
+        <Button FontSize="64" Content="Stack Panel Yapısı"></Button>
+        
+        <Button Margin="1 10 0 1" x:Name="btnCustomConten" Click="btnCustomConten_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Width="64" Height="64" Source="/creuser.png"></Image>
+                <TextBlock FontSize="64" Text="Ben Bir Buttonum...." />
+            </StackPanel>
+        </Button>
+
+        <StackPanel>
+            <ComboBox x:Name="cmbWindowType">
+                <ComboBoxItem>Wrap Panel</ComboBoxItem>
+                <ComboBoxItem>Dock Panel</ComboBoxItem>
+                <ComboBoxItem>Grid</ComboBoxItem>
+                <ComboBoxItem>Grid 2</ComboBoxItem>
+                <ComboBoxItem>Uniform Grid</ComboBoxItem>
+            </ComboBox>
+            <Button Height="30" x:Name="btnOtherWindow" Click="btnOtherWindow_Click">Göster</Button>
+            
+        </StackPanel>
+        
+    </StackPanel>
+</Window>
