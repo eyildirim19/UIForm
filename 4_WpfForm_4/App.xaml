@@ -1,0 +1,23 @@
+﻿<Application x:Class="_4_WpfForm_4.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_4_WpfForm_4"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <!--<Style>
+        </Style>-->
+
+        <!--Resource  File'in yolu belirtilir... -->
+        <!--<ResourceDictionary Source="CustomStyle.xaml"></ResourceDictionary>-->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="CustomStyle.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="OtherStyle.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+        
+        
+    </Application.Resources>
+</Application>
