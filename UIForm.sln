@@ -17,11 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_WpfForm_2", "4_WpfForm_2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_WpfForm_3", "4_WpfForm_3\4_WpfForm_3.csproj", "{DC4D9629-9D0A-4A0A-9A40-39DF93BB8701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_WpfForm_4", "4_WpfForm_4\4_WpfForm_4.csproj", "{78782A53-F3B6-4137-A9A4-96DD1C70D2DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_WpfForm_4", "4_WpfForm_4\4_WpfForm_4.csproj", "{78782A53-F3B6-4137-A9A4-96DD1C70D2DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_WpfForm_5", "4_WpfForm_5\4_WpfForm_5.csproj", "{3F712388-4B70-4F34-9BDE-44C6E98375AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_WpfForm_5", "4_WpfForm_5\4_WpfForm_5.csproj", "{3F712388-4B70-4F34-9BDE-44C6E98375AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_WpfForm_6", "4_WpfForm_6\4_WpfForm_6.csproj", "{6947C0FE-00E4-43D4-A2D7-4008C8AFAC9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_WpfForm_6", "4_WpfForm_6\4_WpfForm_6.csproj", "{6947C0FE-00E4-43D4-A2D7-4008C8AFAC9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_WpfForm_7", "4_WpfForm_7\4_WpfForm_7.csproj", "{58F6057E-0201-4A1A-BFDA-0E4C87B407A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_WpfCrud", "5_WpfCrud\5_WpfCrud.csproj", "{CF504B84-E531-4100-9E23-A963469D9771}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{6947C0FE-00E4-43D4-A2D7-4008C8AFAC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6947C0FE-00E4-43D4-A2D7-4008C8AFAC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6947C0FE-00E4-43D4-A2D7-4008C8AFAC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F6057E-0201-4A1A-BFDA-0E4C87B407A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F6057E-0201-4A1A-BFDA-0E4C87B407A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F6057E-0201-4A1A-BFDA-0E4C87B407A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F6057E-0201-4A1A-BFDA-0E4C87B407A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF504B84-E531-4100-9E23-A963469D9771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF504B84-E531-4100-9E23-A963469D9771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF504B84-E531-4100-9E23-A963469D9771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF504B84-E531-4100-9E23-A963469D9771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
